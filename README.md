@@ -33,6 +33,11 @@ Run the executable without any params to get argument list
 Plugins can only be written in pure C, C++ is not recommended and will definitely break your game.
 
 ## Guidelines
+
+### Base Address
+You need to find empty/unused space in memory and set that address as base address in the plugin make file, usually end of original executable + 0x10000 or 0x20000 should be just about enough - to be sure, check with PCSX2 memory view if your selected address is truly unused.
+
+
 ### Variables
 Every variable needs to be initialized, do not leave uninitialized variables.
 
