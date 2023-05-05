@@ -28,6 +28,8 @@ Run the executable without any params to get argument list
 
 [MKDHookPS2](http://github.com/ermaccer/MKDHookPS2) - a plugin for MK Deception
 
+[RandomLaddersMKA](https://github.com/ermaccer/RandomLaddersMKA) - a plugin for MK Armageddon
+
 # Writing plugins
 
 Plugins can only be written in pure C, C++ is not recommended and will definitely break your game.
@@ -69,3 +71,4 @@ A simple list of games that were tested and can (or not) have injected code - do
 | Name | Serial | Status |
 |       ---       |       ---       |      ---       |
 | Mortal Kombat Deception | SLUS-20881 |✅ Works  |
+| Mortal Kombat Armageddon | SLUS-21410 |✅ Works  |
