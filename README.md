@@ -43,18 +43,6 @@ You need to find empty/unused space in memory and set that address as base addre
 ### Variables
 Every variable needs to be initialized, do not leave uninitialized variables.
 
-### Strings
-All strings must be static to be used.
-
-Do:
-```cpp
-static const char my_string[] = "Hello World";
-my_string_function(my_string);
-```
-Don't:
-```cpp
-my_string_function("Hello World");
-```
 
 ### Arrays, allocations
 Static arrays have been tested and will work, any memory allocations have not been tested yet and theres a high chance they will break games, do it
@@ -72,3 +60,4 @@ A simple list of games that were tested and can (or not) have injected code - do
 |       ---       |       ---       |      ---       |
 | Mortal Kombat Deception | SLUS-20881 |✅ Works  |
 | Mortal Kombat Armageddon | SLUS-21410 |✅ Works  |
+| Mortal Kombat Shaolin Monks | SLUS-21087 |✅ Works  |
